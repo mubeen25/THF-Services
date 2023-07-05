@@ -2,13 +2,15 @@
 import React from 'react'
 import './App.css'
 import Navigation from './Components/Navigation'
-import Title from './Components/Title'
+// import Title from './Components/Title'
+import Services from './Components/Services'
 
 function App() {
   return (
     <>
       <Navigation/>
-      <Title/>
+      {/* <Title/> */}
+      <Services/>
     </>
   )
 }
