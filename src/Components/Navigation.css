@@ -1,0 +1,15 @@
+/**Navigation**/
+
+
+.nav-link {
+    font-size: 15pt !important;
+    font-weight: 600 !important;
+    color: gray !important;
+    padding-left: 30px !important;
+}
+
+.nav-link:hover {
+    color: #47982c !important;
+    text-decoration: underline;
+    transition: 0.5s;
+}
