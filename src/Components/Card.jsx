@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import './Card.css'
 
 const Card = (props) => {
-    
+    const img = props.image
     const [isClicked, setClicked] = useState(false);
 
     const handleBuyClick = () => {
@@ -20,7 +20,9 @@ const Card = (props) => {
     <section>
         <div className="wrapper">
             <div className="container">
-              <div className="top"></div>
+              <div className="top">
+                <img src={img} alt="image" className='top-inner'/>
+              </div>
               <div className={`bottom ${isClicked ? 'clicked' : ''}`}>
                 <div className="left">
                   <div className="details">
