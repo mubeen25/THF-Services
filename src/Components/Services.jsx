@@ -2,8 +2,8 @@
 import React from 'react';
 import './Services.css';
 import Card from './Card';
-// import ImageOne from '../assets/Developer.jpg'
-
+import ImageOne from '../assets/Developer.jpg'
+import ImageTwo from '../assets/images.jpeg'
 const Services = () => {
 
     return (
@@ -22,12 +22,14 @@ const Services = () => {
                         // }
                         service="Web Developer"
                         price="20,000 PKR"
+                        image = {ImageOne}
                     />
                 </div>
                 <div className="col-lg-4 col-md-6">
                     <Card
                         service="GraphicsDesigner"
                         price="20,000 PKR"
+                        image = {ImageTwo}
                     />
                 </div>
                 <div className="col-lg-4 col-md-6">

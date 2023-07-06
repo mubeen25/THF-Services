@@ -4,9 +4,7 @@ import './App.css'
 import Navigation from './Components/Navigation'
 import Title from './Components/Title'
 import Services from './Components/Services'
-
 import About from './Components/About';
-import Contact from './Components/Contact';
 import {Routes, Route } from 'react-router-dom'
 
 
