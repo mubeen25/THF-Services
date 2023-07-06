@@ -3,12 +3,14 @@ import React from 'react'
 import './App.css'
 import Navigation from './Components/Navigation'
 import Title from './Components/Title'
+import Contact from './Components/Contact'
 
 function App() {
   return (
     <>
       <Navigation/>
-      <Title/>
+      {/* <Title/> */}
+      <Contact/>
     </>
   )
 }
