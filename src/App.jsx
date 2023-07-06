@@ -4,16 +4,21 @@ import './App.css'
 import Navigation from './Components/Navigation'
 import Title from './Components/Title'
 import Contact from './Components/Contact'
-// import Title from './Components/Title'
 import Services from './Components/Services'
+import {Routes, Route } from 'react-router-dom'
+import About from './Components/About'
 
 function App() {
   return (
     <>
+
       <Navigation/>
-      {/* <Title/> */}
-      <Contact/>
-      <Services/>
+          <Routes>
+            <Route path='/' element={<Title/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/about' element={<About/>}/>
+          </Routes>
     </>
   )
 }
