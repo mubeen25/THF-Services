@@ -8,8 +8,14 @@
     padding-left: 30px !important;
 }
 
-.nav-link:hover {
+.nav-link:hover{
     color: #47982c !important;
     text-decoration: underline;
     transition: 0.5s;
+}
+
+.active{
+    font-size: 15pt !important;
+    font-weight: 800 !important;
+    color: #47982c !important;
 }
