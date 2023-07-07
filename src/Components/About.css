@@ -1,0 +1,10 @@
+.con{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+     width: auto;
+    height: 450px;
+    color: white;
+}

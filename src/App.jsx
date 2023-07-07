@@ -6,6 +6,7 @@ import Title from './Components/Title'
 import Services from './Components/Services'
 import About from './Components/About';
 import {Routes, Route } from 'react-router-dom'
+import Contact from './Components/Contact'
 
 
 function App() {
